@@ -20,9 +20,9 @@ def contact():
     return render_template("contact.html")
 
 
-@app.route("/carrers")
-def carrers():
-    return render_template("carrers.html")
+@app.route("/careers")
+def careers():
+    return render_template("careers.html")
 
 
 if __name__ == "__main__":
